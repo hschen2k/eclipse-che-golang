@@ -39,7 +39,7 @@ RUN sudo curl -fsSL "$GOLANG_DOWNLOAD_URL" -o golang.tar.gz \
     go get -v github.com/zmb3/gogetdoc && \
     go get -v golang.org/x/tools/cmd/goimports && \
     go get -v sourcegraph.com/sqs/goreturns && \
-    go get -v github.com/golang/lint/golint && \
+    go get -v golang.org/x/lint/golint && \
     go get -v github.com/cweill/gotests/... && \
     go get -v github.com/alecthomas/gometalinter && \
     go get -v honnef.co/go/tools/... && \

@@ -10,7 +10,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo bash - && \
     nodejs \
     && sudo rm -rf /var/lib/apt/lists/*
 
-ENV GOLANG_VERSION 1.11.10
+ENV GOLANG_VERSION 1.12.5
 ENV GOLANG_LS_VERSION="0.1.7"
 ENV goRelArch linux-amd64
 ENV GOLANG_DOWNLOAD_URL https://golang.org/dl/go${GOLANG_VERSION}.${goRelArch}.tar.gz
